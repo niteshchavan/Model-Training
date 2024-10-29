@@ -23,7 +23,7 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
 ### Response:
 {}"""
 
-instruction = "Translate the following English sentence to French."
+instruction = "Extract the Invoice No, Invoice Date, and SS Name."
 input = "Hello, how are you?"
 my_model = "testmodel"
 
